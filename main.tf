@@ -5,7 +5,7 @@ variable "s3_bucket" {}
 variable "s3_key" {}
 
 variable "handler" { default = "main.handler" }
-variable "runtime" { default = "python2.7" }
+variable "runtime" { default = "python3.6" }
 variable "memory_size" { default = 128 }
 variable "timeout" { default = 3 }
 variable "log_retention_in_days" { default = 0 }
